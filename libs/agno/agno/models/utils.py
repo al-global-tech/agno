@@ -51,6 +51,7 @@ _PROVIDERS: Dict[str, Tuple[str, str, str, str]] = {
     "llama-openai": ("agno.models.meta", "LlamaOpenAI", "LlamaOpenAI", "llamaopenai"),
     "llmman": ("agno.models.llmman", "Llmman", "Llmman", "llmman"),
     "lmstudio": ("agno.models.lmstudio", "LMStudio", "LMStudio", "lmstudio"),
+    "martllm": ("agno.models.martllm", "MartLLM", "MartLLM", "martllm"),
     "meta": ("agno.models.meta", "Llama", "Llama", "llama"),
     "minimax": ("agno.models.minimax", "MiniMax", "MiniMax", "minimax"),
     "mistral": ("agno.models.mistral", "MistralChat", "MistralChat", "mistral"),
